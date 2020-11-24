@@ -15,13 +15,13 @@ public class Persona {
     protected String cedula;
     protected String direccion;
     protected Date fechaNac;
-    // protected Administrador registradoPor;
-    
-    public boolean login(){
+    protected Administrador registradoPor;
+
+    public boolean login() {
         return true;
     }
-    
-    public boolean logOut(){
+
+    public boolean logOut() {
         return true;
     }
 }
