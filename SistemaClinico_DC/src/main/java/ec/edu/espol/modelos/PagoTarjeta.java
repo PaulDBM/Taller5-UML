@@ -14,8 +14,10 @@ public class PagoTarjeta implements Pago{
 
     @Override
     public boolean realizarPago(float monto) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        if(this.monto>= monto){
+            return true;
+        }
+     return false;
     }
-    
     
 }
