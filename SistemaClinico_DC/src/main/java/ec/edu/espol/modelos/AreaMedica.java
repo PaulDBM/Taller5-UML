@@ -12,4 +12,10 @@ public class AreaMedica {
     protected float costo;
     protected ArrayList<Doctor> doctores;
 
+    public AreaMedica(String especialidad, float costo, ArrayList<Doctor> doctores) {
+        this.especialidad = especialidad;
+        this.costo = costo;
+        this.doctores = doctores;
+    }
+
 }

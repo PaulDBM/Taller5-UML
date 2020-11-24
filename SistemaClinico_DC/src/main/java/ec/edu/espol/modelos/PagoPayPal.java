@@ -6,8 +6,8 @@ import java.util.Date;
  *
  * @author anamabri
  */
+public class PagoPayPal implements Pago {
 
-public class PagoPayPal implements Pago{
     protected float monto;
     protected String numero;
     protected Date expira;
@@ -26,9 +26,5 @@ public class PagoPayPal implements Pago{
     public boolean realizarPago(float monto) {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
-    
-    
-    
-    
-    
+
 }

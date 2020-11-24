@@ -9,6 +9,8 @@ import java.util.Date;
 public class Cita {
 
     protected Date fecha;
+    protected Paciente paciente;
+    protected Doctor doctor;
     protected boolean pagada;
     protected String registradoPor;
 
