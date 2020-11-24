@@ -15,6 +15,7 @@ public class Persona {
     protected String cedula;
     protected String direccion;
     protected Date fechaNac;
+    // protected Administrador registradoPor;
     
     public boolean login(){
         return true;
